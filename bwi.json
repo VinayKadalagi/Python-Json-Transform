@@ -1,0 +1,150 @@
+{
+   "bookingLegDetail":{
+      "bookNumber":"902644316",
+      "reservationItineraryDetailsMap":{
+         "03144":[
+            {
+               "checkinDate": "2020-03-30",
+               "checkoutDate": "2020-03-31",
+               "commentsList": [
+               ],
+               "excBestExtrasAvailable": false,
+               "excludedProductList": [
+               ],
+               "inclBestExtrasAvailable": false,
+               "includedProductList": [
+               ],
+               "legNumber": 1,
+               "numAdult": 1,
+               "numChild": 0,
+               "numNights": 1,
+               "packageDetail": {
+               },
+               "quantity": 1,
+               "ratePlan": {
+                  "isExcludedPlan": false,
+                  "longDescription": "Flexible Rate",
+                  "rateAttachedWithPromoCode": false,
+                  "rateCode": "RACK",
+                  "roomDetailsList": [
+                     {
+                        "additionalDescription": "",
+                        "dailyPriceMap": {
+                           "2020-03-30": 149.99
+                        },
+                        "description": "1 King Bed, Non-Smoking, Poolside, Full Breakfast",
+                        "inventory": false,
+                        "maxOccupancy": 2,
+                        "petFriendly": false,
+                        "roh": false,
+                        "roomBedInfo": "1 King Bed",
+                        "roomCategoryCode": "2294140"
+                     }
+                  ],
+                  "shortDescription": "Flexible Rate",
+                  "thirdPartyOnly": "N"
+               },
+               "resInsertSource": "WB",
+               "resInsertSourceType": "GDS_TYPA",
+               "resUpdateSource": "WB",
+               "resUpdateSourceType": "GDS_TYPA",
+               "reservationGdsInfo": [
+               ],
+               "reservationPolicies": {
+                  "cancelByDate": "2020-03-29T18:00:00-0700",
+                  "childPolicyDesc": "Children 17 And Under Are Free In Room With One Paying Adult In Existing Bedding.",
+                  "depositPolicyCode": "CC-GTD",
+                  "depositPolicyDesc": "Guaranteed to your credit card for late arrival."
+               },
+               "resort": "03144",
+               "resvDetailId": "480959416",
+               "roomCurrency": "USD",
+               "roomPrice": 149.99,
+               "roomResvStatus": "BOOKED",
+               "totalTaxCCDepSettlementAmt": 0,
+               "totalTaxCCFullpaySettlementAmt": 0
+            }
+         ]
+      }
+   },
+   "profileList":[
+      {
+         "reservationDetailId":480959416,
+         "profile":{
+            "nameType":"GCC",
+            "firstName":"NIHA",
+            "lastName":"K",
+            "doNotEmailPromo":true,
+            "centralBill":true,
+            "nameCode":"6006637569154578",
+            "nameId":793177935,
+            "doNotEmail":true
+         },
+         "fromArchive":false,
+         "nameUsageType":"GUEST",
+         "primary":true
+      }
+   ],
+   "reservation":{
+      "bookNumber":"902644316",
+      "checkSum":"da77761d108703afaff00b5a11a76546",
+      "customer":{
+         "firstName":"NIHA",
+         "lastName":"K"
+      },
+      "groupPay":false,
+      "insertSource":"WB",
+      "insertSourceType":"GDS_TYPA",
+      "isArchived":false,
+      "reservationItineraryDetailsMap":{
+         "03144":[
+            {
+               "checkinDate":"2020-03-30",
+               "checkoutDate":"2020-03-31",
+               "commentsList":[
+
+               ],
+               "excBestExtrasAvailable":false,
+               "excludedProductList":[
+
+               ],
+               "inclBestExtrasAvailable":false,
+               "includedProductList":[
+
+               ],
+               "maxCancelByDate":"2020-03-29",
+               "minCancelByDate":"2020-03-29",
+               "numAdult":1,
+               "numChild":0,
+               "quantity":1,
+               "reservationGdsInfo":[
+
+               ],
+               "resort":"03144",
+               "totalTaxCCDepSettlementAmt":0,
+               "totalTaxCCFullpaySettlementAmt":0
+            }
+         ]
+      },
+      "reservationStatus":"BOOKED",
+      "resvNumber":"464579113"
+   },
+   "resvComments":[
+      {
+         "updateDate":"2020-03-11",
+         "agentId":"JV_RESWS",
+         "comments":"CREDIT CARD HOLDER: Niha, K",
+         "commentType":"CREDIT_CARD_HOLDER",
+         "insertDate":"2020-03-11",
+         "resvCommentId":412012114
+      },
+      {
+         "updateDate":"2020-03-11",
+         "agentId":"JV_RESWS",
+         "comments":"level 1",
+         "commentType":"RESERVATION",
+         "insertDate":"2020-03-11",
+         "resvCommentId":412012115
+      }
+   ]
+}
