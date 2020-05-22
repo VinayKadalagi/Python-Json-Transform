@@ -1,14 +1,16 @@
 import json
 
-jsonMap = { "comments" : "Notes" ,
-            "bookNumber" : "bookingId",
-            "firstName" : "fullName" }
+jsonMap = {"comments": "Notes",
+           "bookNumber": "bookingId",
+           "firstName": "fullName"}
+
 
 def find_key(obj, key):
     if isinstance(obj, dict):
         yield from iter_dict(obj, key, [])
     elif isinstance(obj, list):
         yield from iter_list(obj, key, [])
+
 
 def iter_dict(d, key, indices):
     for k, v in d.items():
@@ -19,6 +21,7 @@ def iter_dict(d, key, indices):
         elif isinstance(v, list):
             yield from iter_list(v, key, indices + [k])
 
+
 def iter_list(seq, key, indices):
     for k, v in enumerate(seq):
         if isinstance(v, dict):
@@ -26,8 +29,9 @@ def iter_list(seq, key, indices):
         elif isinstance(v, list):
             yield from iter_list(v, key, indices + [k])
 
+
 with open('./bwi.json') as f:
-   bwi = json.load(f)
+    bwi = json.load(f)
 
 seq = []
 for oldvalue in jsonMap:
@@ -37,7 +41,7 @@ for oldvalue in jsonMap:
         print(tempstr)
         oldcmdparam = tempstr.replace(',', '][')
         newcmdparam = oldcmdparam.replace(oldvalue, jsonMap[oldvalue])
-        exec ("bwi" + newcmdparam + "= bwi" + oldcmdparam)
+        exec("bwi" + newcmdparam + "= bwi" + oldcmdparam)
         exec("del bwi" + oldcmdparam)
 
-print (json.dumps(bwi))
+print(json.dumps(bwi))
